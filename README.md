@@ -13,3 +13,8 @@ The RS-ADAS project focuses on the utilization of SAM to distinguish roadways fr
 - **Real-Time Analysis**: Capable of processing and analyzing road data in real-time to support instant decision-making.
 - **Adaptive Learning**: Continuously improves through machine learning, adapting to new road conditions and environments.
 - **Enhanced Safety Protocols**: Bolsters the safety mechanisms of ADAS by providing more precise road layout information.
+
+## Applications
+- **Autonomous Vehicle Navigation**: Improves route planning and obstacle detection in self-driving cars.
+- **Traffic Management Systems**: Assists in the management and control of traffic flow.
+- **Urban and Rural Planning**: Provides valuable insights for infrastructure development in both urban and rural areas.
