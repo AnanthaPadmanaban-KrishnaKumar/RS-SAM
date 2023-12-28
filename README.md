@@ -19,6 +19,7 @@ The RS-ADAS project focuses on the utilization of SAM to distinguish roadways fr
 - **Final Segmentation**: SAM performs detailed segmentation within the specified bounding boxes, resulting in highly accurate road segmentation.
 
 ## YOLOv8 Object Detection Architecture Overview
+![U-Net Architecture with VGG Backbone](https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/yolo.jpg)
 This image illustrates the detailed architecture of the YOLOv8 object detection model. It is a comprehensive schematic that outlines the flow from input image to detected objects.
 
 ### Backbone Architecture
