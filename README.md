@@ -12,6 +12,12 @@ The RS-ADAS project focuses on the utilization of SAM to distinguish roadways fr
 - **YOLOv8**: Utilized for its advanced object detection capabilities, specifically for identifying road areas in images.
 - **Segment Anything Model (SAM)**: Employed for its exceptional segmentation accuracy, particularly in isolating the road from the rest of the image.
 
+## Project Workflow
+- **Initial Image Processing**: Images of various environments are first processed through the YOLOv8 object detection model.
+- **Road Detection**: YOLOv8 identifies the 'road' class within these images, accurately outlining the road with a bounding box.
+- **Passing to SAM**: The images, along with the detected road bounding boxes, are then fed into the SAM segment model.
+- **Final Segmentation**: SAM performs detailed segmentation within the specified bounding boxes, resulting in highly accurate road segmentation.
+
 ## YOLOv8 Object Detection Architecture Overview
 This image illustrates the detailed architecture of the YOLOv8 object detection model. It is a comprehensive schematic that outlines the flow from input image to detected objects.
 
