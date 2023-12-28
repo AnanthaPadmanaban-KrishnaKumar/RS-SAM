@@ -54,7 +54,7 @@ Upsampling Layers: These layers are utilized to merge feature maps from differen
 - **Urban and Rural Planning**: Provides valuable insights for infrastructure development in both urban and rural areas.
 
 ## Drawbacks
-- One of the notable drawbacks of the RSA-Y8S project is the time complexity involved in processing an image from input to the final output of the SAM model. The sophisticated layers and the depth of processing required for accurate detection and segmentation lead to increased computational demands.
+- One of the notable drawbacks of the RS-ADAS project is the time complexity involved in processing an image from input to the final output of the SAM model. The sophisticated layers and the depth of processing required for accurate detection and segmentation lead to increased computational demands.
 - Consequently, this complexity results in longer processing times, which currently may not align with the real-time requirements of practical autonomous driving systems.
 - This challenge is a significant consideration for deployment in live environments where decision-making is time-critical.
 
