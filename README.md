@@ -53,5 +53,10 @@ Upsampling Layers: These layers are utilized to merge feature maps from differen
 - **Traffic Management Systems**: Assists in the management and control of traffic flow.
 - **Urban and Rural Planning**: Provides valuable insights for infrastructure development in both urban and rural areas.
 
+## Drawbacks
+- One of the notable drawbacks of the RSA-Y8S project is the time complexity involved in processing an image from input to the final output of the SAM model. The sophisticated layers and the depth of processing required for accurate detection and segmentation lead to increased computational demands.
+- Consequently, this complexity results in longer processing times, which currently may not align with the real-time requirements of practical autonomous driving systems.
+- This challenge is a significant consideration for deployment in live environments where decision-making is time-critical.
+
 ## Conclusion:
 Road Segment Analysis for ADAS (RS-ADAS) represents a significant leap in road segmentation technology, combining YOLOv8's object detection prowess with SAM's segmentation accuracy. This synergy creates a robust and reliable system for autonomous vehicles, significantly improving their navigation capabilities and overall safety in various road conditions.
