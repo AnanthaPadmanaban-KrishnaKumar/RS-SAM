@@ -15,7 +15,7 @@ The RS-ADAS project focuses on the utilization of SAM to distinguish roadways fr
 ## YOLOv8 Object Detection Architecture Overview
 This image illustrates the detailed architecture of the YOLOv8 object detection model. It is a comprehensive schematic that outlines the flow from input image to detected objects.
 
-###Backbone Architecture
+### Backbone Architecture
 The backbone is responsible for feature extraction and is constructed using a series of convolutional layers:
 
 - **Pyramid Scaling Layers (P1 - P5)**: These layers form a feature pyramid that captures a wide range of object sizes and details.
