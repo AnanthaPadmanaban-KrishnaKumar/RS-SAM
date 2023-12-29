@@ -45,6 +45,30 @@ Upsampling Layers: These layers are utilized to merge feature maps from differen
 - **Batch Normalization and SiLU Activation**: Included within convolutional blocks to stabilize learning and introduce non-linearities.
 - **Detect Layers**: Located at strategic points in the architecture, they interpret the refined feature maps to make final object predictions.
 
+
+## Dataset Composition
+
+- **Training Set**: 5,000 images with corresponding segmentation masks.
+- **Testing Set**: 1,00 images with associated masks for model accuracy evaluation.
+
+## Preprocessing Techniques
+
+- **Resizing**: Uniformly resized images and masks to 640 x 640 x 3 to standardize the input data.
+- **Normalization**: Applied normalization to standardize pixel values across all images and eliminate outliers.
+
+## Training Infrastructure
+
+- Conducted on **Amazon SageMaker** with an NVIDIA Tesla T4 GPU (ml.g5.2xlarge instance).
+
+## Training Hyperparameters
+
+- **Epochs**: 100 epochs to balance learning and prevent overfitting.
+- **Batch Size**: A batch size of 16, optimizing memory usage and model performance.
+- **Learning Rate**: Set to 0.0001 for steady convergence without overshooting minima.
+- **Custom Loss Function**: Binary Cross Entropy
+- **Primary Metric**: Accuracy was used to gauge predictive performance.
+- **Callbacks**: Early Stopping with a patience of 12 epochs and model checkpointing to save the best-performing model iteration.
+
 ## SAM Segmentation
 - The SAM model takes the detected road area and performs detailed segmentation, isolating the road with high precision.
 
