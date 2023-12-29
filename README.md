@@ -1,6 +1,10 @@
 # Road Segment Analysis for ADAS (RS-ADAS)
 
-![Rail Track Feature Extraction Example](URL_TO_YOUR_IMAGE)
+<p float="left">
+  <img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/input_video.gif" width="49%" style="margin-right: 2%;" />
+  <img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/output_video.gif" width="49%" />
+</p>
+
 
 ## Introduction
 RS-ADAS is an advanced analytical tool designed to enhance Autonomous Driving Assistant Systems by providing precise road segmentation capabilities. Leveraging the Segment Anything Model (SAM), RS-ADAS is capable of accurately differentiating road surfaces from their surroundings under various conditions, including urban, suburban, and rural environments.
@@ -69,8 +73,18 @@ Upsampling Layers: These layers are utilized to merge feature maps from differen
 - **Primary Metric**: Accuracy was used to gauge predictive performance.
 - **Callbacks**: Early Stopping with a patience of 12 epochs and model checkpointing to save the best-performing model iteration.
 
+<p float="left">
+  <img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/input_video.gif" width="49%" style="margin-right: 2%;" />
+  <img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/output_video_box.gif" width="49%" />
+</p>
+
 ## SAM Segmentation
 - The SAM model takes the detected road area and performs detailed segmentation, isolating the road with high precision.
+
+<p float="left">
+  <img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/output_video_box.gif" width="49%" style="margin-right: 2%;" />
+  <img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/output_video.gif" width="49%" />
+</p>
 
 ## Key Features
 - **Versatile Segmentation**: Capable of handling diverse environmental conditions.
