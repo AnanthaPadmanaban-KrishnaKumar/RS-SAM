@@ -46,21 +46,21 @@ Upsampling Layers: These layers are utilized to merge feature maps from differen
 - **Detect Layers**: Located at strategic points in the architecture, they interpret the refined feature maps to make final object predictions.
 
 
-## Dataset Composition
+### Dataset Composition
 
 - **Training Set**: 5,000 images with corresponding segmentation masks.
 - **Testing Set**: 1,00 images with associated masks for model accuracy evaluation.
 
-## Preprocessing Techniques
+### Preprocessing Techniques
 
 - **Resizing**: Uniformly resized images and masks to 640 x 640 x 3 to standardize the input data.
 - **Normalization**: Applied normalization to standardize pixel values across all images and eliminate outliers.
 
-## Training Infrastructure
+### Training Infrastructure
 
 - Conducted on **Amazon SageMaker** with an NVIDIA Tesla T4 GPU (ml.g5.2xlarge instance).
 
-## Training Hyperparameters
+### Training Hyperparameters
 
 - **Epochs**: 100 epochs to balance learning and prevent overfitting.
 - **Batch Size**: A batch size of 16, optimizing memory usage and model performance.
@@ -86,10 +86,10 @@ RS-ADAS finds its use in various domains:
 - **Urban and Rural Planning**: Offers insights into road conditions for urban and rural development.
 
 ## Drawbacks
-- A current limitation of RS-ADAS is the high time complexity from input to output, which impacts its feasibility for real-time applications. The intricate processing required for accurate segmentation increases computational demands, leading to longer processing times.
+A current limitation of RS-ADAS is the high time complexity from input to output, which impacts its feasibility for real-time applications. The intricate processing required for accurate segmentation increases computational demands, leading to longer processing times.
 
 ## Future Directions
-- Efforts are underway to optimize RS-ADAS for real-time processing without compromising the accuracy of road detection and segmentation, aiming to make it viable for live autonomous vehicle applications.
+Efforts are underway to optimize RS-ADAS for real-time processing without compromising the accuracy of road detection and segmentation, aiming to make it viable for live autonomous vehicle applications.
 
 ## Conclusion:
 RS-ADAS stands as a testament to the potential of combining YOLOv8's detection capabilities with the segmentation prowess of SAM, offering a promising solution to the challenges of road detection in ADAS. While there are hurdles to overcome, particularly concerning processing speed, the system's adaptability and precision set the stage for future enhancements and broader application.
