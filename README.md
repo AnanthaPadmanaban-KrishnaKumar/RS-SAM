@@ -13,7 +13,7 @@ The project employs a two-stage process involving YOLOv8 for initial road detect
 - **Segment Anything Model (SAM)**: Provides high-fidelity segmentation of the detected road areas, separating them from other elements in the image.
 
 ## Project Workflow
-<img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/RS-SAM%20FLOWCHART.png" width="50%">
+<img src="https://github.com/AnanthaPadmanaban-KrishnaKumar/RS-SAM/blob/main/assets/RS-SAM%20FLOWCHART.png" height="50%">
 
 - **Image Acquisition**: Images of various environments are first processed through the YOLOv8 object detection model.
 - **Road Detection**: YOLOv8 analyzes the images to detect the road and provides bounding boxes around the detected road area.
